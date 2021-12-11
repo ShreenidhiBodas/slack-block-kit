@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitReturns": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "es2017",
+    "types": ["node", "jest", "express"]
+  },
+  "exclude": ["node_modules", "dist"]
+}
