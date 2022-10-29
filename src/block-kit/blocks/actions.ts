@@ -1,4 +1,4 @@
-import {getRandomBlockId } from '../../util/random';
+import { getRandomBlockId } from '../../util/random';
 /**
  * Interface for actions block. block_id is optional for the slack API. but to provide is recommended as to access the data within the actions block will require the block_id. If not provided, a random value will be returned by slack block-kit api.
  */
